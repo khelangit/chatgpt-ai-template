@@ -22,7 +22,7 @@ function NavLink({ children, styles, ...props }: NavLinkProps) {
   );
 
   return (
-    <NextLink style={memoizedStyles} {...props} legacyBehavior>
+    <NextLink style={memoizedStyles} {...props}>
       {children}
     </NextLink>
   );
